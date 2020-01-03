@@ -1,0 +1,22 @@
+logging:
+    level:
+        com.obank: debug
+        # org.springframework.jdbc: debug
+        # org.springframework.security: debug
+        org.springframework.web.client: debug
+        # org.apache.http: debug
+privateKey:
+    MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBALAhjOxl6Uu/iD0s
+    KMx+2FgIcHvgoOr9tnHBr67hqTL70H7K9BJeNbVDwEbjGzIR2LlOs6YIVVQRB0pb
+    OJEzQB+fTTs1xFru5tlWAXVZKn1ANr/lMCkDRtCOY7HL7SCrNYa2/fQR6Lo6iDiA
+    4YPr2dBWdsLP5w8eLCf0JYZ9xuPrAgMBAAECgYA10/saoEa9ZKrBb0aEwNtjhCjE
+    YzEqwCFLANOtUcABGd5tcZ9IIcyuOieAQpYkJjoi3/+dZXyWdaHRwrE2BwC4Z4Dv
+    fUKM0U5OgezX44gEovX8SX3LrvGH//cnHy8JTKkzBX/qiqQgJ7VUGIc9dNs97OWD
+    ZAKBRMCGbEBUXHcoqQJBANqypUlZS7RTJmVAribrYMeqak3GjBYt9p36fZo5l7Gp
+    jbzqzoqCtGfsm6QWNA0/T2Ygba2GLi+8dw65tK0JTTcCQQDOLD5KkORCZcpT2yYO
+    N33Gxoz+Nnwh2zG6iP2Cvx8l6urYKpZYAlR01jsmZfsQMxDoUVGMfdM586uRtKqH
+    HNjtAkBIiIeZVCxvmkRZwKIB9n8aucKYGQnNMWFh8/pEdGWDXyDLT3VBKyh6b1cP
+    jO2mlyDWVlsJ+j7HRlKWZ7Es0rDxAkEAqmaa3Vo/rjkfLouUOm/WvrFf2sQBeKIH
+    ydprXOLFxbsRerRIKllSoHZn0Oa8yLjMIpcDRZDBQcaJaRXfU2ieSQJAWueDrmwc
+    ZNS1yxFdk1YANRgeN2xSrN4FYG9GpvtW3+upGEHrNkuHlGqJWsZ/ecKG+c8gSfgw
+    ZR3aig83OhoLAA==
