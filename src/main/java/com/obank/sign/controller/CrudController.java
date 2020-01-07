@@ -26,12 +26,11 @@ public class CrudController {
     private String publicKey;
 
     @PostMapping("/index")
-    public void request(
-            @RequestHeader(HTTP_HEADER_CLIENT_ID) String clientId, //HTTP请求头部信息clientId
+    public void request(@RequestHeader(HTTP_HEADER_CLIENT_ID) String clientId, //HTTP请求头部信息clientId
             @RequestHeader(HTTP_HEADER_REQUEST_SIGNATURE) String signature, //HTTP请求头部信息签名
             @RequestBody TreeMap<String, Object> map, HttpServletRequest request) {
         LOGGER.debug("clientId:{},signature:{},request参数:{}", HTTP_HEADER_CLIENT_ID, signature, map);
-
+        RSAKeyUtils.verify(map.toString(), publicKey, signature);
         if (RSAKeyUtils.verify(map.toString(), publicKey, signature)) {
             LOGGER.debug("通过");
         } else {
